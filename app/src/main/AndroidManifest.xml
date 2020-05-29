@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.svekomp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/svekomp_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/svekomp_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".project.ui.UtilityScreens.Information">
+        </activity>
+        <activity android:name=".project.ui.UtilityScreens.History"
+            android:label="Historikk">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".project.ui.HomeScreen.HomePage" />
+        </activity>
+        <activity android:name=".project.ui.Tasks.TaskDetail" />
+        <activity
+            android:name=".project.ui.Tasks.Care"
+            android:label="Stell / Pleie">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".project.ui.HomeScreen.HomePage" />
+        </activity>
+        <activity
+            android:name=".project.ui.Tasks.Tests"
+            android:label="Prøver / Undersøkelser">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".project.ui.HomeScreen.HomePage" />
+        </activity>
+        <activity
+            android:name=".project.ui.Tasks.Procedure"
+            android:label="Prosedyrer / Tiltak">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".project.ui.HomeScreen.HomePage" />
+        </activity>
+        <activity
+            android:name=".project.ui.Tasks.Observation"
+            android:label="Observasjoner / Målinger">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".project.ui.HomeScreen.HomePage" />
+        </activity>
+        <activity
+            android:name=".project.ui.Tasks.Documentation"
+            android:label="Dokumentasjonssystemer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".project.ui.HomeScreen.HomePage" />
+        </activity>
+        <activity
+            android:name=".project.ui.UtilityScreens.UserProfile"
+            android:label="Profil">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".project.ui.HomeScreen.HomePage" />
+        </activity>
+        <activity
+            android:name=".project.ui.HomeScreen.HomePage"
+            android:label="Svekomp" />
+        <activity
+            android:name=".project.ui.LoginAndRegistration.RegistrationScreenActivity"
+            android:label="Svekomp" />
+        <activity
+            android:name=".project.ui.LoginAndRegistration.LoginScreenActivity"
+            android:label="Svekomp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Svekomp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string-array name="grad">
+        <item>Blitt undervist eller sett utført</item>
+        <item>Utført under veiledning</item>
+        <item>Utført på egenhånd</item>
+    </string-array>
+</resources>

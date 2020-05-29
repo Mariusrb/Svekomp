@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "356027096334",
+    "firebase_url": "https://svekomp.firebaseio.com",
+    "project_id": "svekomp",
+    "storage_bucket": "svekomp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356027096334:android:1537ed417367ca3a534b5f",
+        "android_client_info": {
+          "package_name": "com.example.svekomp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356027096334-gac6ut97os91g8oadddnq72kdh5s75fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9CqP4P3jdxHVnSw3X76vEWpWns4Gafqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356027096334-gac6ut97os91g8oadddnq72kdh5s75fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
